@@ -1,30 +1,30 @@
 # trystone
-prototype for tutorials entertainment media
 
-# app name candidates
+> A Vue.js project
 
-Enter names space-delimited and wrapped in graves:
+## Build Setup
 
-`trystone` `trylab` `thinkstore`
+``` bash
+# install dependencies
+npm install
 
-# abstract
+# serve with hot reload at localhost:8080
+npm run dev
 
-Tutorial casts for front-end geeks.
+# build for production with minification
+npm run build
 
-# ideas
+# build for production and view the bundle analyzer report
+npm run build --report
 
-  * use gist to share ideas
-  * tutorials
-    - hello world: generate boilerplate for vuejs spa with vue-cli
-    - consume a restful api with vuejs, vue-resource, vuex, vue-router
-    - create a vue-cli template for future vuejs apps with vue-resource, vuex, vue-router, bulma, and font-awesome icons
-  
-# todo
+# run unit tests
+npm run unit
 
- * create centralized repo for tutorials
- * create youtube account
- * find podcast platform/resources
- * create e-mail account with forwarding
- * create twitter account
- * create facebook account ?
- 
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
